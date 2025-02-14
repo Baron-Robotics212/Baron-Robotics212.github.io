@@ -1,0 +1,143 @@
+html{
+	font-family: elephant;
+	scrollbar-color: #2FE4B7 #0C0C0C;
+}
+
+body{
+	background: #0C0C0C;
+}
+
+.back{
+	background-color: #191818;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.nombre{
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+}
+
+.apellido{
+	font-size: 30px;
+	color: #2FE4B7;
+	text-shadow: 0 0 15px #2FE4B7;
+}
+
+.apellido:hover{
+	cursor: pointer;
+}
+
+.nombre:hover{
+	color: #2FE4B7;
+	text-shadow: 0 0 15px #2FE4B7;
+	transition: color 1s, text-shadow 1s;
+}
+
+.yo{
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	margin: 8px;
+	padding: 16px;
+}
+
+.bx.bx-home.bx-lg{
+	color: white;
+}
+
+.text-casa{
+	color: white;
+	font-size: 20pt;
+}
+
+.casa{
+	display: flex;
+	justify-content: flex-end;
+	gap: 30px;
+	align-items: center;
+	width: 85%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.casa .bx.bx-home.bx-lg:hover{
+	cursor: pointer;
+	color: #EE6352;
+	text-shadow: 0 0 20px #EE6352;
+	transition: color 1s, text-shadow 1s;
+}
+
+.tit{
+	color: #2FE4B7;
+	font-size: 45pt;
+	text-shadow: 0 0 5px #2FE4B7;
+}
+
+.tit-ho{
+	display: flex;
+	justify-content: center;
+}
+
+.enlac{
+	font-size: 14pt;
+	font-family: elephant;
+	color: white;
+}
+
+.enlace{
+	display: flex;
+	justify-content: center;
+}
+
+.cent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mitad1{
+	background-color: #191818;
+	height: 400px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 4px #0C4767;
+	border-radius: 10px;
+}
+
+.mitad1:hover{
+	box-shadow: 0 0 40px #0C4767;
+}
+
+.mitad2{
+	background-color: #191818;
+	height: 400px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 4px #0C4767;
+	border-radius: 10px;
+}
+
+.mitad2:hover{
+	box-shadow: 0 0 40px #0C4767;
+}
+
+.link_pithon{
+	color: white;
+}
+
+.link_pithon:hover{
+	text-shadow: 0 0 15px #2FE4B7;
+	transition: color 1s, text-shadow 1s;
+	text-decoration: underline;
+}
